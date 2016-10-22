@@ -111,7 +111,7 @@ blockquote:last-child{
 
 code,
 pre {
-  font-family: "PT Mono", Menlo, "Courier New", monospace;
+  font-family: Monaco, "Source Code Pro", "PT Mono", Menlo, "Courier New", monospace;
   font-size: 95%;
 }
 code {
@@ -128,6 +128,7 @@ pre {
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;
+  tab-size: 4;
 }
 pre code {
   padding: 0;

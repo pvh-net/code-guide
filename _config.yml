@@ -1,6 +1,6 @@
-name:          Code Guide by @mdo
+name:          Code Guide by @mdo - Adapted with Nau Studio Convention by trongthanh
 description:   Standards for developing flexible, durable, and sustainable HTML and CSS.
-url:           http://codeguide.co
+url:           http://naustudio.github.io/code-guide
 
 markdown:      rdiscount
 permalink:     pretty

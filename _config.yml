@@ -1,7 +1,7 @@
-name:          NAU Front End Code Guide
+name:          NAU Front End Code Guide (Beta)
 description:   Standards for developing flexible, durable, and sustainable HTML and CSS.
 url:           http://naustudio.github.io/code-guide
 
-markdown:      rdiscount
 permalink:     pretty
-pygments:      true
+markdown:      kramdown
+highlighter:   rouge

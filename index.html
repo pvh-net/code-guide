@@ -414,11 +414,27 @@ layout: default
     <h3>Editor preferences</h3>
     <p>Set your editor to the following settings to avoid common code inconsistencies and dirty diffs:</p>
     <ul>
-      <li>Use soft-tabs set to two spaces.</li>
+      <li>Use tabs for indentation.</li>
       <li>Trim trailing white space on save.</li>
       <li>Set encoding to UTF-8.</li>
       <li>Add new line at end of files.</li>
     </ul>
     <p>Consider documenting and applying these preferences to your project's <code>.editorconfig</code> file. For an example, see <a href="https://github.com/twbs/bootstrap/blob/master/.editorconfig">the one in Bootstrap</a>. Learn more <a href="http://editorconfig.org">about EditorConfig</a>.</p>
+  </div>
+  <div class="col">
+    {% highlight ini %}
+root = true
+
+[*]
+indent_style = tab
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[{*.yml,package.json}]
+# These format requires space indentation
+indent_style = space
+indent_size = 2
+    {% endhighlight %}
   </div>
 </div>

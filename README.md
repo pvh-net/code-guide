@@ -6,6 +6,8 @@ This guide derived from [Code Guide](http://codeguide.co) which is a project for
 
 ---
 
+To preview locally, install Ruby gem `bundler`, `jekyll` and execute: `bundle exec jekyll serve`.
+
 ### Notable Changes from Original Code Guide
 
 - We use TABs for indentation.
